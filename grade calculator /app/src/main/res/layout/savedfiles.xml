@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7F1BB"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFC8D5">
+
+        <TextView
+            android:id="@+id/savegrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:shadowColor="#FFFFFF"
+            android:text="Saved Results"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#00504848"
+            android:textSize="45sp" />
+
+
+        <TextView
+            android:id="@+id/geography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/savegrades"
+            android:layout_alignBottom="@id/savegrades"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="-129dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="1. Geography: 90.4%"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/savegrades"
+            android:layout_alignBottom="@id/savegrades"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginBottom="-217dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="2. Calculus: 85.5%"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/englis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/savegrades"
+            android:layout_alignBottom="@id/savegrades"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginBottom="-307dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="3. English: 81.5%"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/phys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/savegrades"
+            android:layout_alignBottom="@id/savegrades"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginBottom="-391dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="4. Physics: 91.4%"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

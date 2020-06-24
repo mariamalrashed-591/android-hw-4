@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFC8D5"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFC8D5">
+
+
+        <Button
+            android:id="@+id/savedresult"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext3"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Saved Results"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_edittext3"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Settings"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/gradecalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:shadowColor="#FFFFFF"
+            android:text="Grade Calculator"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#00504848"
+            android:textSize="45sp" />
+
+        <EditText
+            android:id="@+id/subname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gradecalculator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-39dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:hint="Enter subject name"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AEFFFFFF" />
+
+
+        <TextView
+            android:id="@+id/hw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/subname"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="-77dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Homework"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/hwnum"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="119dp"
+            android:layout_marginBottom="-83dp"
+            android:background="@drawable/rounded_edittext2"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:hint="25%"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AEFFFFFF" />
+
+        <TextView
+            android:id="@+id/quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/subname"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="-165dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Quizzes"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/quiznum"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="119dp"
+            android:layout_marginBottom="-177dp"
+            android:background="@drawable/rounded_edittext2"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:hint="15%"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AEFFFFFF" />
+
+        <TextView
+            android:id="@+id/finl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/subname"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="-250dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Finals"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/finalnum"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="119dp"
+            android:layout_marginBottom="-262dp"
+            android:background="@drawable/rounded_edittext2"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:hint="30%"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AEFFFFFF" />
+
+        <TextView
+            android:id="@+id/midterm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/subname"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="-332dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Midterms"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/midternum"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="119dp"
+            android:layout_marginBottom="-348dp"
+            android:background="@drawable/rounded_edittext2"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:hint="30%"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AEFFFFFF" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="274dp"
+            android:layout_marginRight="159dp"
+            android:layout_marginBottom="-440dp"
+            android:background="@drawable/rounded_edittext3"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Calculate"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="171dp"
+            android:layout_marginRight="159dp"
+            android:layout_marginBottom="-497dp"
+            android:background="@drawable/rounded_edittext3"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Reset"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/totalgrade"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@id/subname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="159dp"
+            android:layout_marginBottom="-444dp"
+            android:background="@drawable/white"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="TOTAL GRADE"
+            android:textColor="#000000"
+            android:textColorHint="#FFFFFF"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
